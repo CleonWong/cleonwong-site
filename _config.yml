@@ -1,0 +1,4 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: Cleon Wong # Name of the site.
+source: "src" # Source folder to build the site from.
