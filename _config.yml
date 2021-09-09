@@ -2,6 +2,8 @@ url: "https://cleonwong.github.io" # the base hostname & protocol for your site,
 baseurl: "/cleonwong-site" # the subpath of your site, e.g. /blog
 title: cleon wong # Name of the site.
 source: "src" # Source folder to build the site from.
+sass:
+  sass_dir: _sass
 
 # Socials:
 github_username: CleonWong
