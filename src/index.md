@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: home
 title: "Happy Jekylling!"
 ---
 
-# You're ready to go!
-
-Start developing your Jekyll website.
+👋 &nbsp;I’m an autodidactic tech guy, currently a Founder in Residence at [Entrepreneur First](https://www.joinef.com/). I’m interested in startups, design, programming, finance and crypto.

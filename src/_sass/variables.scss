@@ -1,13 +1,18 @@
-// Colors:
+// Colors
+// ------
 
+// Primary:
 $primaryColor100: #1b76ff;
 $primaryColor80: #8dbbff;
 $primaryColor60: #c6ddff;
 
+// Secondary:
 $secondaryColor100: #ffa41b;
 $secondaryColor80: #ffd28d;
 $secondaryColor60: #ffe8c6;
 
+// Greys:
+$grey100: #000000;
 $grey80: #8c8c8c;
 $grey70: #d1d1d1;
 $grey60: #dddddd;
@@ -18,10 +23,13 @@ $grey30: #f9f9f9;
 $bodyColor: #000000;
 $backgroundColor: #ffffff;
 
-// Fonts:
+// Fonts
+// -----
+
 $bodyFont: "Montserrat", Helvetica, Arial, sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol";
 
+// Font size:
 $hero01FontSize: 82px;
 $hero02FontSize: 68px;
 $h1FontSize: 60px;
@@ -30,11 +38,16 @@ $h3FontSize: 44px;
 $h4FontSize: 34px;
 $h5FontSize: 28px;
 $h6FontSize: 24px;
-$bodyFontSize: 16px;
+$bodyFontSize: 14px;
 
+// Font weight:
 $fontWeightRegular: 400;
 $fontWeightMedium: 500;
 $fontWeightBold: 700;
 
+// Letter spacing:
 $headerLetterSpacing: -0.02em;
 $heroLetterSpacing: -0.01em;
+
+// Widths
+// ------
