@@ -1,0 +1,6 @@
+# This .yml contains tabs that will be automatically included in the navbar.
+
+docs_list_title: Navigation Tabs
+tabs:
+  - title: About
+    permalink: /about/

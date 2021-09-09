@@ -1,0 +1,14 @@
+<header class="header__bg" role="banner">
+  <div class="header">
+
+    <!-- Home title -->
+    <a class="header__title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <!-- Get nav tabs -->
+    <div class="header__nav-tabs">
+      {% assign navtabs = site.data.nav-tabs.tabs %} {% for tab in navtabs %}
+      <a class="header__nav-tabs--tab" href="{{ tab.permalink | relative_url }}">{{ tab.title | escape}}</a>
+      {% endfor %}
+    </div>
+  </div>
+</header>

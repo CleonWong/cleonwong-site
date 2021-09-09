@@ -1,0 +1,139 @@
+// Fonts
+.hero-font {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  letter-spacing: $heroLetterSpacing;
+
+  &__01 {
+    font-size: $hero01FontSize;
+    line-height: 94px;
+  }
+  &__02 {
+    font-size: $hero02FontSize;
+    line-height: 76px;
+  }
+}
+
+h1 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h1FontSize;
+  line-height: 68px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+h2 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h2FontSize;
+  line-height: 60px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+h3 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h3FontSize;
+  line-height: 55px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+h4 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h4FontSize;
+  line-height: 40px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+h5 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h5FontSize;
+  line-height: 32px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+h6 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  font-size: $h6FontSize;
+  line-height: 28px;
+  letter-spacing: $headerLetterSpacing;
+}
+
+.body-font {
+  font-family: $bodyFont;
+  font-style: normal;
+
+  &__L {
+    font-size: 18px;
+
+    &--regular {
+      font-weight: $fontWeightRegular;
+    }
+
+    &--medium {
+      font-weight: $fontWeightMedium;
+    }
+
+    &--bold {
+      font-weight: $fontWeightBold;
+    }
+  }
+
+  &__M {
+    font-size: 16px;
+
+    &--regular {
+      font-weight: $fontWeightRegular;
+    }
+
+    &--medium {
+      font-weight: $fontWeightMedium;
+    }
+
+    &--bold {
+      font-weight: $fontWeightBold;
+    }
+  }
+
+  &__S {
+    font-size: 14px;
+
+    &--regular {
+      font-weight: $fontWeightRegular;
+    }
+
+    &.--medium {
+      font-weight: $fontWeightMedium;
+    }
+
+    &.--bold {
+      font-weight: $fontWeightBold;
+    }
+  }
+
+  &.__XXS {
+    font-size: 12px;
+
+    &.--regular {
+      font-weight: $fontWeightRegular;
+    }
+
+    &.--medium {
+      font-weight: $fontWeightMedium;
+    }
+
+    &.--bold {
+      font-weight: $fontWeightBold;
+    }
+  }
+}
