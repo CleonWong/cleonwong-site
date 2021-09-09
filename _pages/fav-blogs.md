@@ -5,6 +5,4 @@ permalink: /fav-blogs/
 description: Blogs posts that I enjoyed.
 ---
 
-I enjoy reading books and am curious about what others are reading. I figured I’d note what I’ve read here. Books that I’ve started but never finished are marked in italics. Books that I particularly liked have a ⭐️.
-
-The list is in no particular order of preference.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

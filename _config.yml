@@ -14,6 +14,6 @@ twitter_username: CleonW_
 
 # Jekyll Collections:
 collections:
-  pages:
+  pages: # Pages to show on the home page.
     output: true # Set to render files in _pages folder
     permalink: /:title/ # Set the format of the permalink by default

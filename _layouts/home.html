@@ -11,7 +11,8 @@ layout: default
   <h5>Index</h5>
 
   <div class="index">
-    {% for page in site.pages %} {% if page.title != "About" %}
+    {% for page in site.pages %} {% if page.title == "About" %} {% continue %}
+    {% else %}
     <div class="index__item">
       <a class="index__item--title" href="{{ page.permalink | relative_url }}">
         {{ page.title }}
