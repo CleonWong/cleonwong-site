@@ -4,7 +4,20 @@ layout: default
 
 <div>
   <div>
-    <h1>cleon wong</h1>
+    <h1 class="home__title">cleon wong</h1>
   </div>
   {{ content }}
+
+  <h5>Index</h5>
+
+  <div class="index">
+    {% for page in site.pages %} {% if page.title != "About" %}
+    <div class="index__item">
+      <a class="index__item--title" href="{{ page.permalink | relative_url }}">
+        {{ page.title }}
+      </a>
+      - {{ page.description }}
+    </div>
+    {% endif %} {% endfor %}
+  </div>
 </div>

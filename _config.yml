@@ -1,5 +1,5 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: ""https://cleonwong.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cleonwong-site" # the subpath of your site, e.g. /blog
 title: cleon wong # Name of the site.
 source: "src" # Source folder to build the site from.
 
@@ -9,3 +9,9 @@ linkedin_username: cleonwong
 medium_username: cleonwong
 behance_username: cleonwong
 twitter_username: CleonW_
+
+# Jekyll Collections:
+collections:
+  pages:
+    output: true # Set to render files in _pages folder
+    permalink: /:title/ # Set the format of the permalink by default

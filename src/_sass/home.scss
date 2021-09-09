@@ -1,0 +1,22 @@
+.home {
+  &__title {
+    margin-block-start: 0;
+  }
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--title {
+      font-weight: bold;
+    }
+  }
+}

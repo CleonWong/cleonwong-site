@@ -1,0 +1,54 @@
+.footer {
+  height: 100px;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: $grey80;
+
+  @media (max-width: 1080px) {
+    margin: 0 3rem;
+  }
+
+  @media (max-width: 640px) {
+    margin: 0 2rem;
+  }
+
+  &__bg {
+    background: $backgroundColor;
+    border-top: 1px solid $grey50;
+  }
+
+  &__social-ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
+    &--li {
+      display: inline;
+      padding-right: 1rem;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    // These classes are used in the .svg files:
+    &--svgicon {
+      width: 28px;
+      height: 28px;
+
+      &--path {
+        fill: $grey70;
+        transition: fill 0.2s ease-in-out;
+
+        &:hover {
+          fill: $primaryColor100;
+        }
+      }
+    }
+  }
+}
