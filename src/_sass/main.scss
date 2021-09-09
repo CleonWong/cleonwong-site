@@ -22,15 +22,11 @@ body {
     }
 
     &:visited {
-      color: $primaryColor80;
+      color: $secondaryColor100;
       text-decoration: none;
     }
   }
 }
-
-// main {
-//   min-height: 100vh - 200px;
-// }
 
 .container {
   margin: 0 auto; // Horizontal center
@@ -64,9 +60,36 @@ body {
   &__bg {
     background: $backgroundColor;
   }
+
   &__title {
     font-size: 18px;
     font-weight: $fontWeightBold;
+
+    &:link {
+      color: $bodyColor;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $bodyColor;
+      text-decoration: none;
+    }
+  }
+
+  &__nav-tabs {
+    color: $bodyColor;
+
+    a {
+      &:link {
+        color: $bodyColor;
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: $bodyColor;
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -78,6 +101,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: $grey80;
 
   &__bg {
     background: $backgroundColor;
@@ -95,6 +119,7 @@ body {
       padding-right: 1rem;
     }
 
+    // These classes are used in the .svg files:
     &--svgicon {
       width: 28px;
       height: 28px;
