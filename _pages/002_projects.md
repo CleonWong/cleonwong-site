@@ -1,7 +1,7 @@
 ---
 layout: page_about
 title: Projects
-description: A list of side projects that I've started / been a part of.
+description: Things I've built / been a part of.
 permalink: /projects/
 ---
 

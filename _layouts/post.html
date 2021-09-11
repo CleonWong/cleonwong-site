@@ -14,6 +14,9 @@ layout: default
   <!-- Content -->
   <div class="post__content">{{ content }}</div>
 
+  <!-- Thanks -->
+  <div class="post__thanks">{{ page.thanks }}</div>
+
   <!-- Tags -->
   <div class="writing__tags">
     {% for tag in page.tags %}
@@ -22,7 +25,6 @@ layout: default
   </div>
 
   <!-- Back to cateogry -->
-
   <a class="post__back-button" href="{{ page.categories[0] | relative_url }}"
     >< Back to {{ page.categories }}
   </a>

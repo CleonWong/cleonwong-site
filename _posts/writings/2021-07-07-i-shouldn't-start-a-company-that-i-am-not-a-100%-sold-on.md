@@ -5,6 +5,7 @@ date: 2021-07-07 19:07:06 +0800
 tags: entrepreneurship startup
 categories: writings
 pretext: "This piece was written while I was a Founder in Residence at Entrepreneur First (EF), so it very much reflects the frame of mind and considerations in that context. Nonetheless, I think the points here are worth thinking about for those starting their founder journeys."
+thanks: Thanks to Isabelle Lim for reading drafts of this.
 ---
 
 I'd think that most people's immediate response to that statement, without much thought, would be, "That's obvious." Perhaps, that gut response is what's right. But here, I break down my thoughts and see if I agree with the gut response, or not.
