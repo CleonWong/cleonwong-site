@@ -15,7 +15,9 @@ layout: default
   <div class="post__content">{{ content }}</div>
 
   <!-- Thanks -->
+  {% if page.thanks %}
   <div class="post__thanks">{{ page.thanks }}</div>
+  {% endif %}
 
   <!-- Tags -->
   <div class="writing__tags">

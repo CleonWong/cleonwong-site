@@ -1,0 +1,21 @@
+---
+layout: default
+title: My notes
+description: My notes on various topics.
+permalink: /my-notes/
+---
+
+<h2>My notes</h2>
+
+<p class="writing__description">
+  My notes on various topics. They are all over the place.
+</p>
+
+<!-- This loops through _posts/my-notes folder -->
+<ol>
+  {% for post in site.posts %} {% if post.path contains "my-notes"%}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+  {% endif %} {% endfor %}
+</ol>
