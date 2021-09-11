@@ -21,16 +21,16 @@ permalink: /writings/
     </h6>
     <!-- Date -->
     <p class="writing__date">{{ post.date | date_to_string }}</p>
+    <!-- Excerpt -->
+    <p class="writing__excerpt">
+      {{ post.content | strip_html | truncatewords: 30 }}
+    </p>
     <!-- Tags -->
     <div class="writing__tags">
       {% for tag in post.tags %}
       <div class="writing__tags--item">{{ tag }}</div>
       {% endfor %}
     </div>
-    <!-- Excerpt -->
-    <p class="writing__excerpt">
-      {{ post.content | strip_html | truncatewords: 30 }}
-    </p>
   </div>
   {% endif %} {% endfor %}
 </div>
