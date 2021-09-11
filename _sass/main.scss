@@ -18,7 +18,7 @@ body {
   font-weight: $fontWeightRegular;
   line-height: $bodyLineHeight;
 
-  & a {
+  a {
     &:link {
       color: $primaryColor100;
       text-decoration: none;
@@ -48,7 +48,11 @@ body {
   }
 
   &__content {
-    max-width: 562px;
+    max-width: $contentWidth;
+
+    @media (min-width: $contentWidth + 32px + 32px) {
+      min-width: $contentWidth;
+    }
   }
 }
 

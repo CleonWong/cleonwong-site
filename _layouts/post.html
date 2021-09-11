@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h4>{{ page.title }}</h4>
+  <p class="writing__date">{{ page.date | date_to_string }}</p>
+
+  <div class="post__content">{{ content }}</div>
+
+  <!-- Tags -->
+  <div class="writing__tags">
+    {% for tag in page.tags %}
+    <div class="writing__tags--item">{{ tag }}</div>
+    {% endfor %}
+  </div>
+
+  <!-- Back to cateogry -->
+
+  <a class="post__back-button" href="{{ page.categories[0] | relative_url }}"
+    >< Back to {{ page.categories }}
+  </a>
+</div>
