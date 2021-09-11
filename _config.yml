@@ -19,6 +19,8 @@ collections:
     output: true # Set to render files in _pages folder
     permalink: /:title/ # Set the format of the permalink by default
 
+# Build:
+markdown: kramdown
 # # Pagination
 # pagination:
 #   enabled: true # must be set to true

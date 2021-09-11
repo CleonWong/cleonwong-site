@@ -24,13 +24,13 @@ body {
       text-decoration: none;
     }
 
-    &:hover {
-      color: $secondaryColor100;
+    &:visited {
+      color: $primaryColor100;
       text-decoration: none;
     }
 
-    &:visited {
-      color: $primaryColor100;
+    &:hover {
+      color: $secondaryColor100;
       text-decoration: none;
     }
   }
