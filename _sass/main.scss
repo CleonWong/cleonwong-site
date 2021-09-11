@@ -16,11 +16,16 @@ body {
   font-family: $bodyFont;
   font-size: $bodyFontSize;
   font-weight: $fontWeightRegular;
-  line-height: 190%;
+  line-height: $bodyLineHeight;
 
   & a {
     &:link {
       color: $primaryColor100;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $secondaryColor100;
       text-decoration: none;
     }
 
@@ -34,7 +39,7 @@ body {
 .container {
   margin: 2rem auto 4rem auto; // Horizontal center
 
-  @media (max-width: 562px + 32px + 32px) {
+  @media (max-width: $contentWidth + 32px + 32px) {
     margin: 2rem 2rem 4rem 2rem;
   }
 
@@ -44,5 +49,11 @@ body {
 
   &__content {
     max-width: 562px;
+  }
+}
+
+.hide-for-mobile {
+  @include media("<=large-phone") {
+    display: none;
   }
 }

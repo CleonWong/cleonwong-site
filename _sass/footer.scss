@@ -8,12 +8,16 @@
   justify-content: space-between;
   color: $grey80;
 
-  @media (max-width: 1080px) {
+  @include media("<=desktop") {
     margin: 0 3rem;
   }
 
-  @media (max-width: 640px) {
+  @include media("<=tablet") {
     margin: 0 2rem;
+  }
+
+  @include media("<=large-phone") {
+    justify-content: center;
   }
 
   &__bg {
@@ -34,12 +38,21 @@
       &:last-child {
         padding-right: 0;
       }
+
+      @include media("<=phone") {
+        padding-right: 0.5rem;
+      }
     }
 
     // These classes are used in the .svg files:
     &--svgicon {
       width: 28px;
       height: 28px;
+
+      @include media("<=small-phone") {
+        width: 24px;
+        height: 24px;
+      }
 
       &--path {
         fill: $grey70;
