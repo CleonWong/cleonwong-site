@@ -8,12 +8,12 @@ pretext:
 thanks:
 ---
 
-_Note:_
+Note:
 
 - "Markets" here refer to centralised markets (as opposed to decentralised markets).
 - "Order book" here refers to limit order book (as opposed to [other types of order books](https://www.stocksbaazigar.com/types-of-order-books/))
 
-_What you should know:_
+What you should know:
 
 - It pays to know what an [Order] is when trying to understand order books.
 
@@ -21,7 +21,9 @@ _What you should know:_
 
 ---
 
-##### What is an "order book"
+<br />
+
+**What is an "order book"**
 
 An **order book** is a list of buy and sell orders for an asset sorted by price level.
 
@@ -35,17 +37,13 @@ Another way I like to think about order books is that it shows _the best potenti
 
 Generally, bid and ask prices on an order book never matches in any market at any one point in time because overlapping bids and asks are matched and filled, hence they are removed from the order book.
 
-##### Examples of exchanges that use order books to settle orders
+**Examples of exchanges that use order books to settle orders**
 
 1. Traditional, high-volume, centralised stock exchanges like the New York Stock Exchange and NASDAQ.
 2. Coinbase (still a centralised exchange but for cryptocurrencies).
 3. Binance (still a centralised exchange but for cryptocurrencies).
 
-<br />
-
----
-
-##### What information does the order book reveal about the market for that asset?
+**What information does the order book reveal about the market for that asset?**
 
 ###### Market depth
 
