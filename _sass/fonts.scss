@@ -1,69 +1,83 @@
 // Fonts
-.hero-font {
+@mixin hero-font__01 {
   font-family: $bodyFont;
   font-style: normal;
   font-weight: $fontWeightBold;
   letter-spacing: $heroLetterSpacing;
+  font-size: $hero01FontSize;
+  line-height: 93%;
+  color: $heroColor;
+}
 
-  &__01 {
-    font-size: $hero01FontSize;
-    line-height: 94px;
-  }
-  &__02 {
-    font-size: $hero02FontSize;
-    line-height: 76px;
-  }
+@mixin hero-font__02 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  letter-spacing: $heroLetterSpacing;
+  font-size: $hero02FontSize;
+  line-height: 92%;
+  color: $heroColor;
+}
+
+@mixin hero-font__03 {
+  font-family: $bodyFont;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  letter-spacing: $heroLetterSpacing;
+  font-size: $hero03FontSize;
+  line-height: 92%;
+  color: $heroColor;
 }
 
 h1 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h1FontSize;
-  line-height: 85%;
+  line-height: 120%;
   letter-spacing: $headerLetterSpacing;
 }
 
 h2 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h2FontSize;
-  line-height: 85%;
+  line-height: 120%;
   letter-spacing: $headerLetterSpacing;
 }
 
 h3 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h3FontSize;
-  line-height: 85%;
+  line-height: 120%;
   letter-spacing: $headerLetterSpacing;
 }
 
 h4 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h4FontSize;
-  line-height: 110%;
+  line-height: 118%;
   letter-spacing: $headerLetterSpacing;
 }
 
 h5 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h5FontSize;
-  line-height: 100%;
+  line-height: 118%;
   letter-spacing: $headerLetterSpacing;
 }
 
 h6 {
   font-family: $bodyFont;
   font-style: normal;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
   font-size: $h6FontSize;
   line-height: 118%;
   letter-spacing: $headerLetterSpacing;
@@ -85,7 +99,7 @@ h6 {
     }
 
     &--bold {
-      font-weight: $fontWeightBold;
+      font-weight: $fontWeightSemiBold;
     }
   }
 
@@ -101,7 +115,7 @@ h6 {
     }
 
     &--bold {
-      font-weight: $fontWeightBold;
+      font-weight: $fontWeightSemiBold;
     }
   }
 
@@ -117,7 +131,7 @@ h6 {
     }
 
     &.--bold {
-      font-weight: $fontWeightBold;
+      font-weight: $fontWeightSemiBold;
     }
   }
 
@@ -133,7 +147,7 @@ h6 {
     }
 
     &.--bold {
-      font-weight: $fontWeightBold;
+      font-weight: $fontWeightSemiBold;
     }
   }
 }

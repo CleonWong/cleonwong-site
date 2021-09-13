@@ -3,11 +3,12 @@
   flex-direction: column;
 
   &__pretext {
+    margin-top: 0.5rem;
     color: $grey80;
   }
 
   &__content {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
   }
 

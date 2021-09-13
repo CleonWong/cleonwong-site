@@ -5,7 +5,7 @@ description: Long-form thoughts on my learnings and experiences.
 permalink: /writings/
 ---
 
-<h2>Writings</h2>
+<p class="writing__hero">Writings</p>
 
 <p class="writing__description">
   Long-form thoughts on my learnings and experiences.
@@ -16,14 +16,14 @@ permalink: /writings/
   {% for post in site.posts %} {% if post.path contains "writings"%}
   <div class="writing__indiv-block">
     <!-- Title -->
-    <h6 class="writing__title">
+    <h4 class="writing__title">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h6>
+    </h4>
     <!-- Date -->
     <p class="writing__date">{{ post.date | date_to_string }}</p>
     <!-- Excerpt -->
     <p class="writing__excerpt">
-      {{ post.content | strip_html | truncatewords: 30 }}
+      {{ post.content | strip_html | truncatewords: 25 }}
     </p>
     <!-- Tags -->
     <div class="writing__tags">
