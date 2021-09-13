@@ -59,6 +59,7 @@ Generally, bid and ask prices on an order book never matches in any market at an
   - An illiquid market means there are few buy and sell orders. It is then more likely to have a large bid-ask spread and that the bid and ask prices don't match (when the highest bid price is lower than the lowest ask price, transactions cannot happen). Depending on how the exchange deals with the large spread, transactions using this order book model can still happen but it usually results in more volatile prices of the asset.
 
 - When the asset has to be traded "on-chain" (e.g. cryptocurrencies)
+  - ??
 
 <br />
 
