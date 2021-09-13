@@ -3,21 +3,8 @@ layout: default
 ---
 
 <div class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="writing__date">{{ page.date | date_to_string }}</p>
-
-  <!-- Pre-text -->
-  {% if page.pretext %}
-  <div class="post__pretext">{{ page.pretext }}</div>
-  {% endif %}
-
   <!-- Content -->
   <div class="post__content">{{ content }}</div>
-
-  <!-- Thanks -->
-  {% if page.thanks %}
-  <div class="post__thanks">{{ page.thanks }}</div>
-  {% endif %}
 
   <!-- Tags -->
   <div class="writing__tags">

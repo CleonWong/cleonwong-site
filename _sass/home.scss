@@ -1,6 +1,12 @@
 .home {
   &__title {
     margin-block-start: 0;
+
+    @include hero-font__02;
+
+    @include media("<=tablet") {
+      @include hero-font__03;
+    }
   }
 }
 

@@ -25,6 +25,18 @@
     border-top: 1px solid $grey50;
   }
 
+  &__logo {
+    &:link {
+      color: $grey80;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $grey80;
+      text-decoration: none;
+    }
+  }
+
   &__social-ul {
     list-style: none;
     padding-inline-start: 0px;

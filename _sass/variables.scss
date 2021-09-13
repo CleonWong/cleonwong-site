@@ -20,7 +20,8 @@ $grey50: #e8e8e8;
 $grey40: #f3f3f3;
 $grey30: #f9f9f9;
 
-$bodyColor: #000000;
+$bodyColor: #333333;
+$heroColor: #000000;
 $backgroundColor: #ffffff;
 
 // Dark theme:
@@ -30,24 +31,29 @@ $bodyColorDark: #f0f0f0;
 // Fonts
 // -----
 
-$bodyFont: "Montserrat", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-  "Segoe UI Emoji", "Segoe UI Symbol";
+// $bodyFont: "Montserrat", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+// "Segoe UI Emoji", "Segoe UI Symbol";
+$bodyFont: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+  "Segoe UI Symbol";
 
 // Font size:
 $hero01FontSize: 82px;
 $hero02FontSize: 68px;
-$h1FontSize: 60px;
-$h2FontSize: 50px;
-$h3FontSize: 44px;
-$h4FontSize: 34px;
-$h5FontSize: 28px;
-$h6FontSize: 24px;
-$bodyFontSize: 16px;
-$bodySmallFontSize: 12px;
+$hero03FontSize: 58px;
+$h1FontSize: 30px;
+$h2FontSize: 26px;
+$h3FontSize: 24px;
+$h4FontSize: 22px;
+$h5FontSize: 20px;
+$h6FontSize: 19px;
+$bodyFontSize: 17px;
+$bodySmallFontSize: 14px;
 
 // Font weight:
 $fontWeightRegular: 400;
 $fontWeightMedium: 500;
+$fontWeightSemiBold: 600;
 $fontWeightBold: 700;
 
 // Letter spacing:
@@ -55,7 +61,7 @@ $headerLetterSpacing: -0.02em;
 $heroLetterSpacing: -0.01em;
 
 // Line height:
-$bodyLineHeight: 200%;
+$bodyLineHeight: 145%;
 
 // Widths
 // ------
