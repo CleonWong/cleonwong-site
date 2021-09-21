@@ -24,7 +24,14 @@ Things to cover in future:
 
 - Custom icons
 
-In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React. Note that this tutorial is based on MUI v5.0.0.
+In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React. Note that this is a tutorial for MUI v5.0.0.
+
+The theme in MUI is used to specify all stylistic characteristics of your React app, from colour palettes, typographic stylings to button and icon sizes. MUI comes with a [default theme](https://mui.com/customization/default-theme/). It is the styles that you see in all MUI components by default.
+
+- Start a new React app, console log the default theme to see that it is just a javascript object.
+- What you need to do is to change this theme object.
+- How do you do that? Use the Theme Provider.
+- wtf is theme provider?
 
 - Setup
   - Typescript + MUI v5.0.0 + yarn
