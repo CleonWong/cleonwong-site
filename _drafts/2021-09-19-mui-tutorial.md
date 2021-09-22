@@ -35,7 +35,8 @@ Things to cover in future:
 
 In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React. Note that this is a tutorial for MUI v5.0.0 and React with TypeScript.
 
-**Quick setup**
+# Quick setup
+
 Let us quickly set up a project with React, TypeScript and MUI using [create-react-app](https://create-react-app.dev/). I will be using the [yarn package manager](https://yarnpkg.com/).
 
 Open the command prompt, navigate to your desired parent folder and type in the following commands. Your React app will be created directly within this folder.
@@ -73,7 +74,7 @@ $ yarn start
 
 Enter `http://localhost:3000/` in your browser to view youor React app.
 
-**Understanding the default `Theme` object**
+# Understanding the default `Theme` object
 
 The theme in MUI is used to specify all stylistic characteristics of your React app, from colour palettes, typographic stylings to button and icon sizes. MUI comes with a [default theme](https://mui.com/customization/default-theme/). It is the set of styles that you see in all MUI components by default.
 
@@ -103,7 +104,8 @@ You should now see the entire default MUI `theme` object printed in your browser
 - How do you do that? Use the Theme Provider.
 - wtf is theme provider?
 
-**Overwriting the global `theme` object**
+# Overwriting the default `theme` object
+
 Next, you’ll need to define a global theme for your application.
 One good practice is to define a `theme.tsx` file into the `/src` folder (as opposed to creating the global theme in `App.tsx`). This will keep your `App.tsx` code lighter and make your application structure cleaner.
 
