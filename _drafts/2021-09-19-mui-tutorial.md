@@ -26,14 +26,19 @@ Things to cover in future:
 
 ---
 
-**TL;DR**
+# TL;DR
 
 - MUI uses the `Theme` object to specify the theme (i.e. stylistic characteristics of your React app).
 - Edit the default `Theme` object using `Theme Provider` component to update it into a custom theme.
 
 ---
 
-In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React. Note that this is a tutorial for MUI v5.0.0 and React with TypeScript.
+In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React.
+
+Note:
+
+- This is a tutorial for MUI v5.0.0 and React with TypeScript.
+- This is a beginner friendly article. I've included links to parts of the documentation that shows where I got the necessary information. _Knowing how to read documentation is very important._
 
 # Quick setup
 
@@ -78,8 +83,9 @@ Enter `http://localhost:3000/` in your browser to view youor React app.
 
 The theme in MUI is used to specify all stylistic characteristics of your React app, from colour palettes, typographic stylings to button and icon sizes. MUI comes with a [default theme](https://mui.com/customization/default-theme/). It is the set of styles that you see in all MUI components by default.
 
-**Accessing the `theme` object**
-The MUI global `theme` object is accessible using the `useTheme()` hook.
+## Accessing the `theme` object
+
+The MUI global `theme` object is accessible using the `useTheme()` hook (found in the documentation [here](https://mui.com/styles/api/#usetheme-theme)).
 
 The `useTheme()` hook returns the default MUI `theme` object if you do not have a custom `theme` object created using the `createMuiTheme` method and passed it through `<ThemeProvider />` component (we will look at those in a bit).
 
