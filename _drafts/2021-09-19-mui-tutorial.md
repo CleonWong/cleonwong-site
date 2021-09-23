@@ -33,11 +33,10 @@ Things to cover in future:
 
 ---
 
-In this piece, I break down how to implement a custom theme for a webapp that uses Material UI (MUI) with React.
+In this piece, I walk through how to implement a custom theme for a React (with TypeScript) app that uses Material UI (MUI) v5.0.0.
 
 Note:
 
-- This is a tutorial for MUI v5.0.0 and React with TypeScript.
 - This is a beginner friendly article. I've included links to parts of the documentation that shows where I got the necessary information. _Knowing how to read documentation is very important._
 
 # Quick setup
@@ -85,7 +84,7 @@ The theme in MUI is used to specify all stylistic characteristics of your React 
 
 ## Accessing the `theme` object
 
-The MUI global `theme` object is accessible using the `useTheme()` hook (found in the documentation [here](https://mui.com/styles/api/#usetheme-theme)). The `useTheme()` hook returns the default MUI `theme` object if you do not already have a custom `theme` object created.
+The MUI global `theme` object is accessible using the [`useTheme()` hook](https://mui.com/styles/api/#usetheme-theme). The `useTheme()` hook returns the default MUI `theme` object if you do not already have a custom `theme` object created.
 
 In `App.tsx`, import the following:
 
@@ -102,17 +101,19 @@ console.log(theme);
 
 You should now see the entire default MUI `theme` object printed in your browser's Dev Tool console.
 
+# Overwriting the default `theme` object
+
+You can create a custom theme by overwriting selected parts of the default `theme` object using the [`createTheme` method](https://mui.com/customization/theming/#createtheme-options-args-theme) and passing it through the [`<ThemeProvider />` component](https://mui.com/customization/theming/#theme-provider).
+
+One good practice is to define a `theme.tsx` file into the `/src` folder (as opposed to creating the global theme in `App.tsx`). This will keep your `App.tsx` code lighter and make your application structure cleaner.
+
+---
+
 - Start a new React app, console log the default theme to see that it is just a javascript object.
 - Then show some components with default stylings.
 - What you need to do is to change this theme object.
 - How do you do that? Use the Theme Provider.
 - wtf is theme provider?
-
-# Overwriting the default `theme` object
-
-You can create a custom theme by overwriting selected parts of the default `theme` object using the `createMuiTheme` method and passing it through the `<ThemeProvider />` component.
-
-One good practice is to define a `theme.tsx` file into the `/src` folder (as opposed to creating the global theme in `App.tsx`). This will keep your `App.tsx` code lighter and make your application structure cleaner.
 
 - Setup
   - Typescript + MUI v5.0.0 + yarn
