@@ -85,9 +85,7 @@ The theme in MUI is used to specify all stylistic characteristics of your React 
 
 ## Accessing the `theme` object
 
-The MUI global `theme` object is accessible using the `useTheme()` hook (found in the documentation [here](https://mui.com/styles/api/#usetheme-theme)).
-
-The `useTheme()` hook returns the default MUI `theme` object if you do not have a custom `theme` object created using the `createMuiTheme` method and passed it through `<ThemeProvider />` component (we will look at those in a bit).
+The MUI global `theme` object is accessible using the `useTheme()` hook (found in the documentation [here](https://mui.com/styles/api/#usetheme-theme)). The `useTheme()` hook returns the default MUI `theme` object if you do not already have a custom `theme` object created.
 
 In `App.tsx`, import the following:
 
@@ -112,7 +110,8 @@ You should now see the entire default MUI `theme` object printed in your browser
 
 # Overwriting the default `theme` object
 
-Next, you’ll need to define a global theme for your application.
+You can create a custom theme by overwriting selected parts of the default `theme` object using the `createMuiTheme` method and passing it through the `<ThemeProvider />` component.
+
 One good practice is to define a `theme.tsx` file into the `/src` folder (as opposed to creating the global theme in `App.tsx`). This will keep your `App.tsx` code lighter and make your application structure cleaner.
 
 - Setup
