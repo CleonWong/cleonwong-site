@@ -24,6 +24,7 @@ collections:
 
 # Build:
 markdown: kramdown
+highlighter: rogue
 # # Pagination
 # pagination:
 #   enabled: true # must be set to true
