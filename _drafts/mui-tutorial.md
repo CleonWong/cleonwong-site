@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Teaching myself Material UI"
+title: "Custom theme in Material UI"
 date: 2021-09-19 00:00:00 +0800
 tags: frontend-dev
-categories: tech
+categories: drafts
 pretext:
 thanks:
 ---
@@ -37,7 +37,7 @@ In this piece, I walk through how to implement a custom theme for a React (with 
 
 Note:
 
-- This is a beginner friendly article. I've included links to parts of the documentation that shows where I got the necessary information. _Knowing how to read documentation is very important._
+- This is a beginner-friendly article. I've included links to parts of the documentation (where necessary) that show where I got the information. _Knowing how to read documentation is very important._
 
 # Quick setup
 
@@ -76,7 +76,7 @@ Finally, do the following to launch your newly created React app in your browser
 $ yarn start
 ```
 
-Enter `http://localhost:3000/` in your browser to view youor React app.
+Enter `http://localhost:3000/` in your browser to view your React app.
 
 # Understanding the default `Theme` object
 

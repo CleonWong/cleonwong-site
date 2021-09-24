@@ -18,6 +18,9 @@ collections:
   pages: # Pages to show on the home page.
     output: true # Set to render files in _pages folder
     permalink: /:title/ # Set the format of the permalink by default
+  drafts: # Pages to show on the home page.
+    output: true # Set to render files in _pages folder
+    permalink: /:collection/:title/ # Set the format of the permalink by default
 
 # Build:
 markdown: kramdown

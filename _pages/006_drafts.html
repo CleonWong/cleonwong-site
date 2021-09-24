@@ -1,0 +1,32 @@
+---
+layout: default
+title: Drafts
+description: Drafts that will not be shown on the home page.
+permalink: /drafts/
+---
+
+<p class="writing__hero">Drafts</p>
+
+<!-- This loops through _drafts folder -->
+<div class="writing__all-block">
+  {% for draft in site.drafts %} {% if draft.path contains "drafts"%}
+  <div class="writing__indiv-block">
+    <!-- Title -->
+    <h4 class="writing__title">
+      <a href="{{ draft.url | relative_url }}">{{ draft.title }}</a>
+    </h4>
+    <!-- Date -->
+    <p class="writing__date">{{ draft.date | date_to_string }}</p>
+    <!-- Excerpt -->
+    <p class="writing__excerpt">
+      {{ draft.content | strip_html | truncatewords: 25 }}
+    </p>
+    <!-- Tags -->
+    <div class="writing__tags">
+      {% for tag in draft.tags %}
+      <div class="writing__tags--item">{{ tag }}</div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %} {% endfor %}
+</div>
