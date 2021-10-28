@@ -10,10 +10,6 @@ thanks:
 
 # Learning SQL
 
-Learning SQL should be straightforward and easy. What then sets me apart from every other SQL monkeys out there then?
-
-I might leave a quick review of the resources that I use here as well.
-
 **Why am I learning SQL?**
 
 - I'm supposed to be a data scientist lol
@@ -22,7 +18,9 @@ I might leave a quick review of the resources that I use here as well.
 
 **Additional things to understand, if time allows:**
 
-- Understand relational databases (DBs), since SQL is a language for relational DBs.
+- Everything about relational databases (DBs), since SQL is a language for relational DBs.
+
+Learning SQL should be straightforward and easy. What then sets me apart from every other SQL monkeys out there then?
 
 ## 1. sqlcrashcourse.com
 
@@ -36,13 +34,3 @@ I might leave a quick review of the resources that I use here as well.
 - Quick and dirty way of learning SQL for beginners. No videos to slow you down, the course is just all text, examples and simple coding exercises.
 - Able to complete in a few hours.
 - There are some minor syntax inconsistencies in the solutions.
-
-<br />
-
----
-
-<br />
-
-## Related
-
-- Order Book
